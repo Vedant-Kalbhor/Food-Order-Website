@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS lecture</title>
+    <!-- header -->
+    <script type="text/javascript">
+        function f1() {
+            var x=[2,6,8,4,1];
+
+            document.write("before sort"+x);
+            document.write("after sort"+x.sort());
+
+            // x = prompt("Enter a number:");
+            // document.write("You entered " + x + "<br>");
+
+            // for (var i = 1; i <= 10; i++) {
+            //     document.write(x + " x " + i + " = " + x * i);
+            //     document.write("<br>");
+            // }
+        }
+    </script>
+</head>
+<body>
+    <h1>Welcome</h1>
+    <p>Javascript sample</p>
+
+    <script type="text/javascript">
+        var y = 20;
+        document.write("y is " + y);
+    </script>
+
+    <footer>
+        <script type="text/javascript">
+            var x;
+            x = prompt("Enter no.");
+            document.write("You entered " + x);
+            if (x > 0)
+                document.write("Given no. is ++");
+            else
+                document.write("Given no. is --");
+            
+            for (var i = 1; i <= 10; i++) {
+                document.write(x + " x " + i + " = " + x * i);
+                document.write("<br>");
+            }
+
+            document.write("You selected = " + confirm("Select any one option"));
+            alert("Hi, this is an alert!");
+        </script>
+    </footer>
+</body>
+</html>
